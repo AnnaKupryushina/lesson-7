@@ -214,17 +214,17 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-	padding-top: 60px;
-	padding-bottom: 40px;
-	width: 100%;
-	background: url(../img/map.png) no-repeat center center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 100%;
+    background: url(../img/map.png) no-repeat center center;
 }
 .contact__info {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35vw;
-    height:35vw ;
+    width: 40vw;
+    height:40vw ;
     border-radius: 50%;
     background: #fff;
     opacity: 0.8;
