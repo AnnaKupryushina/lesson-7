@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+
+nav {
+    position: relative;
+    margin-top: 20px;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+nav:before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+  }
+nav:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+}
+  
+.header__link {
+    display: none;
+}
+.contact__form {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vw;
+    background: #fff;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+.contact__name {
+    margin-top: 5vh;
+    width: 20vw;
+    height: 4vw;
+    margin-bottom: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #4C505D;
+  
+}
+.contact__email {
+    width: 20vw;
+    height: 4vw;
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px; 
+    color: #4C505D;
+}
+.contact__message {
+    width: 20vw;
+    height: 8vw;
+    margin-bottom: 32px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #4C505D;
+}

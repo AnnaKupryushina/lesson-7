@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.container {
+    width: 78%;
+    margin: 0 auto;
+}
+/* Header
+==========================================*/
+
+.header {
+    padding: 25px 0;
+    background-color: #55ADB7;
+}
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__link {
+    margin-left: 15px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #DCE3E4;
+    font-size: 18px;
+}
+a:hover {
+    color:  rgb(231, 206, 172);
+}
+.slash::after {
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    width: 18px;
+    height: 1px;
+    transform: rotate(-60deg);
+    background-color: #E4E4E4;
+}
+
+.header__logo {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* Main 
+==========================================*/
+.main__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.main__information { 
+    width: 100%;
+    background: 
+     url(../img/sea.png) no-repeat center center;
+}
+.main__base {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__title {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+   /* font-size: 44px ;*/
+    font-size: calc(28px + 16*(100vw/1280));
+    font-weight: 700;
+    color: #E4E4E4;
+}
+.main__word {
+    text-align: center;
+}
+.main__button {
+    margin-bottom: 150px;
+    width: 234px;
+    height: 47px;
+    background: transparent;
+    border: 2px solid#E4E4E4;
+    border-radius: 5%;
+    font-family: 'Quicksand', sans-serif;
+    color: #E4E4E4;
+    font-weight: 300;
+    font-size: calc(28px + 2*(100vw/1280));
+}
+.main__button:hover {
+    background-color: #4C505D;
+}
+.main__text {
+    width: 70%;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4C505D;
+}
+.links {
+    display: flex;
+    justify-content: center;
+  
+    }
+.main__link {
+    margin-bottom: 50px; 
+    margin-left: 15px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+.main__link:hover {
+    background-color: #837979;
+}
+.main__describe {
+    background-color: #DCE3E4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.main__name {
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 39px;
+    font-family: 'Quicksand', sans-serif;
+    color: #4C505D;
+    font-size: calc(28px + 2*(100vw/1280));
+    font-weight: 300;
+}
+.main__icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+   
+}
+.icon__basket {
+    width: 57px;
+    height: 51px;
+    margin-right: 126px;
+}
+.icon__planet {
+    width: 56px;
+    height: 56px;
+    margin-right: 126px;
+   
+   }
+.icon__briefcase {
+    width: 53px;
+    height: 51px;
+    
+   }
+   /* User opinion
+==========================================*/
+.user__opinion {
+    width: 100%;
+    padding-top: 97px;
+    padding-bottom: 50px;
+    background-color: #00D089;
+   }
+.user__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__snapshot {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background: url(../img/snapshot.png);
+}
+.user__name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+    color: #E4E4E4;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.user__symbol {
+    font-size: calc(28px + 70*(100vw/1280));
+    font-weight: 700;
+    color: #fff;
+    opacity: .2;
+}
+.user__info {
+    position: relative;
+    bottom: 110px;
+    margin-left: 752px;
+    
+}
+
+.user__text {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+    /* Map
+==========================================*/
+.main__map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	width: 100%;
+	background: url(../img/map.png) no-repeat center center;
+}
+.contact__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height:30vw ;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.8;
+   
+}
+
+.contact__name {
+    width: 276px;
+    height: 32px;
+    margin-bottom: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #4C505D;
+  
+}
+.contact__email {
+    width: 276px;
+    height: 32px;
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px; 
+    color: #4C505D;
+}
+.contact__message {
+    width: 276px;
+    height: 81px;
+    margin-bottom: 32px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #4C505D;
+
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+}
+.contact__button {
+    position: relative;
+    width: 67px;
+    height: 68px;
+    background: #00d089;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: #00d089;
+}
+.button__sign {
+    position: absolute;
+    background: #fff;
+}
+.leftline {
+    width: 20px;
+    height: 10px;
+    transform: rotate(45deg);
+    left: 8px;
+    top: 32px;
+}
+.rightline {
+    width: 38px;
+    height: 10px; 
+    transform: rotate(135deg);
+    left:18px; 
+    top: 31px;
+
+}
+.contact__button:hover {
+   background-color: rgb(231, 206, 172);
+}
+/* Footer
+==========================================*/
+.footer {
+    display: flex;
+    justify-content: center;
+    /*position: sticky;
+    left: 0;
+    bottom: 0;*/
+    background-color: #00D089;
+    
+}
+.footer__address {
+    padding: 25px 0;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 14px;
+    color: #FFFFFF;
+
+}
+/*font-family: 'Cherry Swash', cursive;
+font-family: 'Quicksand', sans-serif;*/
